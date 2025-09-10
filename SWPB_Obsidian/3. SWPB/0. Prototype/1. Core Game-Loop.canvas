@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"3689235e90aaf25b","type":"text","text":"Server Waiting Screen","x":385,"y":0,"width":250,"height":60,"color":"3"},
+		{"id":"3c4178387f4a2b25","type":"text","text":"Server Creater Screen","x":240,"y":-130,"width":220,"height":60,"color":"3"},
+		{"id":"c3a4bb3f425ce3d2","type":"text","text":"Server Selecter Screen","x":560,"y":-130,"width":220,"height":60,"color":"3"},
+		{"id":"f82e06d581155f80","type":"text","text":"Character Selector Screen","x":-80,"y":80,"width":250,"height":60,"color":"4"},
+		{"id":"06793c8249f54b0d","type":"text","text":"Game","x":-540,"y":-130,"width":250,"height":60,"color":"5"},
+		{"id":"4d87b0349926b253","type":"text","text":"Game Ending Screen","x":-130,"y":-130,"width":250,"height":60,"color":"6"},
+		{"id":"c12ca70fc7207284","type":"text","text":"Main Menu","x":420,"y":-300,"width":180,"height":60,"color":"2"},
+		{"id":"754d108cd66ce0a6","type":"text","text":"Credits","x":-100,"y":-300,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"1a29c14c16e17a17","fromNode":"c12ca70fc7207284","fromSide":"left","toNode":"754d108cd66ce0a6","toSide":"right"},
+		{"id":"a9ed179c26c8211b","fromNode":"c12ca70fc7207284","fromSide":"bottom","toNode":"3c4178387f4a2b25","toSide":"top"},
+		{"id":"bf67ac8b5376cb6b","fromNode":"c12ca70fc7207284","fromSide":"bottom","toNode":"c3a4bb3f425ce3d2","toSide":"top"},
+		{"id":"ec3626ac2643641e","fromNode":"c3a4bb3f425ce3d2","fromSide":"bottom","toNode":"3689235e90aaf25b","toSide":"top"},
+		{"id":"818ea43ca54900d3","fromNode":"3c4178387f4a2b25","fromSide":"bottom","toNode":"3689235e90aaf25b","toSide":"top"},
+		{"id":"95d7cc89bfbaa2d9","fromNode":"3689235e90aaf25b","fromSide":"bottom","toNode":"f82e06d581155f80","toSide":"right"},
+		{"id":"80d4caabc57762d3","fromNode":"f82e06d581155f80","fromSide":"left","toNode":"06793c8249f54b0d","toSide":"bottom"},
+		{"id":"65a269ba0a4d8e55","fromNode":"06793c8249f54b0d","fromSide":"right","toNode":"4d87b0349926b253","toSide":"left"},
+		{"id":"abf2406dfd8ef592","fromNode":"4d87b0349926b253","fromSide":"bottom","toNode":"f82e06d581155f80","toSide":"top"},
+		{"id":"dfd7804ca727fe99","fromNode":"4d87b0349926b253","fromSide":"bottom","toNode":"3689235e90aaf25b","toSide":"left"},
+		{"id":"72e6e67039b3975f","fromNode":"754d108cd66ce0a6","fromSide":"right","toNode":"c12ca70fc7207284","toSide":"left"}
+	]
+}

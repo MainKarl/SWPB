@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dm6bok1x2w2te"]
+
+[ext_resource type="Texture2D" uid="uid://cc2kryjv3lrmk" path="res://Assets/Sprites/Characters/BaseTestingSprite.png" id="1_4tx0f"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4tx0f"]
+radius = 8.67845
+height = 32.0
+
+[node name="TestingEntity" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_4tx0f")
+offset = Vector2(0, -24)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6, -16)
+scale = Vector2(1.03705, 1)
+shape = SubResource("CapsuleShape2D_4tx0f")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6kciv2jnjwye"]
+
+[ext_resource type="PackedScene" uid="uid://dddryy1ar4es3" path="res://Assets/Scenes/Maps/TestingMap.tscn" id="1_ute7w"]
+[ext_resource type="PackedScene" uid="uid://dm6bok1x2w2te" path="res://Assets/Scenes/Characters/CharacterTesting/TestingEntity.tscn" id="2_25wfo"]
+
+[node name="Main" type="Node2D"]
+
+[node name="MapContainer" type="Node2D" parent="."]
+
+[node name="TestingMap" parent="MapContainer" instance=ExtResource("1_ute7w")]
+
+[node name="EntityContainer" type="Node2D" parent="."]
+
+[node name="TestingEntity" parent="." instance=ExtResource("2_25wfo")]
+position = Vector2(121, 13)
